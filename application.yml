@@ -1,22 +1,6 @@
-server:
-  port: 8889
+token:
+  expiration_time: 864000000 
+  secret: user_token_native_application_changed_#2
 
-spring:
-  application:
-    name: config2
-  cloud:
-    config:
-      server:
-        native:
-          search-locations: file:///C:/
-  rabbitmq:
-    host: 127.0.0.1
-    port: 5672
-    username: guest
-    password: guest
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: health, refresh
+gateway:
+  ip: 172.18.0.1
