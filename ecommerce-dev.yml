@@ -3,4 +3,4 @@ token:
   secret: dev_config_token_#7
 
 gateway:
-  ip: 10.0.0.2
+  ip: 127.0.0.1
